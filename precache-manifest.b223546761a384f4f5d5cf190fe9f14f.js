@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d63448de86fdbb5cc6118588134b3e57",
+    "revision": "2d66bb92563d1eaad24d35d4d5b90142",
     "url": "/city-stats/index.html"
   },
   {
-    "revision": "cb7e04942ca25d55c066",
+    "revision": "07e133386426c77c3240",
     "url": "/city-stats/static/css/2.70d9d258.chunk.css"
   },
   {
-    "revision": "6011448a856a97d7e823",
+    "revision": "dba7fb5fe38a18b16cd7",
     "url": "/city-stats/static/css/main.ca3d197b.chunk.css"
   },
   {
-    "revision": "cb7e04942ca25d55c066",
-    "url": "/city-stats/static/js/2.8b6968ff.chunk.js"
+    "revision": "07e133386426c77c3240",
+    "url": "/city-stats/static/js/2.e5bb05d1.chunk.js"
   },
   {
     "revision": "a6fc7eeb02d4070a309a623123b2fc97",
-    "url": "/city-stats/static/js/2.8b6968ff.chunk.js.LICENSE"
+    "url": "/city-stats/static/js/2.e5bb05d1.chunk.js.LICENSE"
   },
   {
-    "revision": "6011448a856a97d7e823",
-    "url": "/city-stats/static/js/main.335e5bf5.chunk.js"
+    "revision": "dba7fb5fe38a18b16cd7",
+    "url": "/city-stats/static/js/main.7187ad27.chunk.js"
   },
   {
     "revision": "7910bf117f5bf38ace44",
