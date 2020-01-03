@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import LoginForm from "./components/LoginForm";
 import "./App.css";
 import TestAPI from "./components/TestAPI";
@@ -27,18 +27,18 @@ const App = props => {
     <div className="App">
       <UserContextProvider>
         <CityContextProvider>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Route path="/" component={Navigation} />
             {/* <Route path="/" render={props => <FirebaseLogin {...props} />} /> */}
             <Wrapper>
               {/* <Route path="/" component={SearchCity} /> */}
               <Route exact path="/" component={Title} />
-              <Route path="/testAPI" component={TestAPI} />
-              <Route path="/login" component={LoginForm} />
-              <Route path="/signup" component={Signup} />
-              <Route path="/profile" component={UserInfo} />
-              <Route exact path="/cities" component={CityList} />
-              <Route path="/cities/:city" component={EmbeddedWidget} />
+              <Route path="/testAPI/" component={TestAPI} />
+              <Route path="/login/" component={LoginForm} />
+              <Route path="/signup/" component={Signup} />
+              <Route path="/profile/" component={UserInfo} />
+              <Route exact path="/cities/" component={CityList} />
+              <Route path="/cities/:city/" component={EmbeddedWidget} />
             </Wrapper>
           </Router>
         </CityContextProvider>
