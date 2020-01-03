@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c2086ec343792d203f784a1d3044e8b",
+    "revision": "122180fa207d79d9c5e906a710ae5912",
     "url": "/city-stats/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/city-stats/static/css/2.70d9d258.chunk.css"
   },
   {
-    "revision": "dafa21dde7f2c583390e",
+    "revision": "51bfa0056df7d8253b01",
     "url": "/city-stats/static/css/main.ca3d197b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/city-stats/static/js/2.5add3afd.chunk.js.LICENSE"
   },
   {
-    "revision": "dafa21dde7f2c583390e",
-    "url": "/city-stats/static/js/main.cff7444e.chunk.js"
+    "revision": "51bfa0056df7d8253b01",
+    "url": "/city-stats/static/js/main.7a19e47b.chunk.js"
   },
   {
     "revision": "7910bf117f5bf38ace44",
