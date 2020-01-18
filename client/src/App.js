@@ -27,7 +27,7 @@ const App = props => {
     <div className="App">
       <UserContextProvider>
         <CityContextProvider>
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router>
             <Route path="/" component={Navigation} />
             {/* <Route path="/" render={props => <FirebaseLogin {...props} />} /> */}
             <Wrapper>
