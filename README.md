@@ -1,5 +1,7 @@
 ## CityStats
 
+Live site: <https://prescottsun.github.io/city-stats>
+
 ## Description
 
 An urban area metrics site for prospective residents looking to move to a new city. Users can search for cities by name or select from a list of urban cities. The site utilizes the Teleport API for its various quality of life indexes. The application is built with the PERN stack. Users can login with their Google accounts with Firebase.
